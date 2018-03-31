@@ -15,6 +15,8 @@
 		1B1320C5206F64E0007AA01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1320C3206F64E0007AA01B /* LaunchScreen.storyboard */; };
 		1B1320D0206F64E0007AA01B /* BravoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1320CF206F64E0007AA01B /* BravoTestTests.swift */; };
 		1B1320DB206F64E0007AA01B /* BravoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1320DA206F64E0007AA01B /* BravoTestUITests.swift */; };
+		1B1320EA206F6523007AA01B /* tab1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1320E8206F6523007AA01B /* tab1.storyboard */; };
+		1B1320EC206F6537007AA01B /* tab2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1320EB206F6537007AA01B /* tab2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1B1320D6206F64E0007AA01B /* BravoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BravoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1320DA206F64E0007AA01B /* BravoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravoTestUITests.swift; sourceTree = "<group>"; };
 		1B1320DC206F64E0007AA01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1320E9206F6523007AA01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BravoTest/Base.lproj/tab1.storyboard; sourceTree = "<group>"; };
+		1B1320EB206F6537007AA01B /* tab2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = tab2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				1B1320B7206F64DD007AA01B /* AppDelegate.swift */,
 				1B1320B9206F64DD007AA01B /* ViewController.swift */,
 				1B1320BB206F64DD007AA01B /* Main.storyboard */,
+				1B1320E8206F6523007AA01B /* tab1.storyboard */,
+				1B1320EB206F6537007AA01B /* tab2.storyboard */,
 				1B1320C1206F64E0007AA01B /* Assets.xcassets */,
 				1B1320C3206F64E0007AA01B /* LaunchScreen.storyboard */,
 				1B1320C6206F64E0007AA01B /* Info.plist */,
@@ -234,7 +240,9 @@
 			files = (
 				1B1320C5206F64E0007AA01B /* LaunchScreen.storyboard in Resources */,
 				1B1320C2206F64E0007AA01B /* Assets.xcassets in Resources */,
+				1B1320EA206F6523007AA01B /* tab1.storyboard in Resources */,
 				1B1320BD206F64DD007AA01B /* Main.storyboard in Resources */,
+				1B1320EC206F6537007AA01B /* tab2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +319,14 @@
 				1B1320C4206F64E0007AA01B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1B1320E8206F6523007AA01B /* tab1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1320E9206F6523007AA01B /* Base */,
+			);
+			name = tab1.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
